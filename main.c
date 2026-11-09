@@ -13,7 +13,7 @@ int main(void)
     }
  
     // 繰り返しを for 文だけで記述 (初期化: i = 1, 条件: i <= n, 増え方: i++)
-    for (int i = 1; i <= n; i++)
+    for (int i = 1;  i <= n; i++)
     {
         // 偶数のときだけ total に足す（奇数は何もしない）
         if (i % 2 == 0)
